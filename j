@@ -362,7 +362,7 @@ gitpush() {
   local gitcheck=$(git diff --shortstat)
   git add .
   #git remote add origin ${GIT_LOC}.git
-  git commit -m "Check Point 🍥 ${gitcheck}"
+  git commit -m "Check Point 💮 ${gitcheck}"
   git push origin
   git push bitbucket
   echo "♻️ You can open from the list of url as shown below"
